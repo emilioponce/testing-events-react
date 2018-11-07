@@ -6,8 +6,8 @@
 
 .App-header {
   background-color: rgb(44, 79, 196);
-  padding: 10px;
   color: white;
+  padding: 5px;
 }
 
 .App-title {
@@ -16,9 +16,12 @@
 }
 
 .App-content {
-  margin: 100px;
+  margin: 50px;
 }
 
+h1 {
+  margin: 0px;
+}
 .Counter {
   font-size: 200px;
 }

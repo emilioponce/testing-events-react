@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Badge, Icon } from "antd";
+import { Button, Icon } from "antd";
 import "./App.css";
 
 class App extends Component {
@@ -13,12 +13,12 @@ class App extends Component {
 
   handleClick = e => {
     e.target.id === "like"
-      ? this.setState({ counter: this.state.counter + 1 })
-      : this.setState({ counter: this.state.counter - 1 });
+      ? this.setState(state => ({ counter: state.counter + 1 }))
+      : this.setState(state => ({ counter: state.counter - 1 }));
 
-    this.state.counter >= 0
-      ? this.setState({ positive: true })
-      : this.setState({ positive: false });
+    this.setState(state => {
+      return state.counter >= 0 ? { positive: true } : { positive: false };
+    });
   };
 
   render() {
