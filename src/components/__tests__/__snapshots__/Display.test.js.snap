@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component Display snapshot renders correctly 1`] = `
-<div
-  className="Negative"
-/>
+<div>
+  <div
+    className="Positive"
+  >
+    1
+  </div>
+</div>
 `;

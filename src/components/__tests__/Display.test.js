@@ -3,12 +3,7 @@ import ReactDOM from "react-dom";
 import Display from "../Display";
 import renderer from "react-test-renderer";
 
-/*
-TODOS
-. If 'dislike' button is clicked, values over 0 change its color to red
-*/
-
-const component = <Display />;
+const component = <Display value="1" />;
 
 describe("Component Display", () => {
   it("renders without crashing", () => {
@@ -20,5 +15,11 @@ describe("Component Display", () => {
   it("snapshot renders correctly", () => {
     const tree = renderer.create(component).toJSON();
     expect(tree).toMatchSnapshot();
+  });
+
+  it("Values below 0 change its color", () => {
+    const testRenderer = renderer.create(<Display value="-1" />);
+    const testInstance = testRenderer.root;
+    expect(testInstance.findByProps({ className: "Negative" })).toBeDefined();
   });
 });

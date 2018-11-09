@@ -3,7 +3,7 @@
 exports[`Component Controls renders correctly 1`] = `
 <div
   className="ant-btn-group ant-btn-group-lg"
-  onClick={undefined}
+  onClick={[Function]}
 >
   <button
     className="ant-btn ant-btn-primary"

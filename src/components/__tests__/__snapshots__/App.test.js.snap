@@ -17,10 +17,12 @@ exports[`Component App snapshot renders correctly 1`] = `
     className="App-content"
   >
     <div>
-      <div
-        className="Positive"
-      >
-        0
+      <div>
+        <div
+          className="Positive"
+        >
+          0
+        </div>
       </div>
       <div
         className="ant-btn-group ant-btn-group-lg"
