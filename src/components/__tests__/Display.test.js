@@ -1,11 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "../App";
+import Display from "../Display";
 import renderer from "react-test-renderer";
 
-const component = <App />;
+/*
+TODOS
+. If 'dislike' button is clicked, values over 0 change its color to red
+*/
 
-describe("Component App", () => {
+const component = <Display />;
+
+describe("Component Display", () => {
   it("renders without crashing", () => {
     const div = document.createElement("div");
     ReactDOM.render(component, div);

@@ -1,0 +1,8 @@
+.Positive,
+.Negative {
+  font-size: 200px;
+}
+
+.Negative {
+  color: red;
+}

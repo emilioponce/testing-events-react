@@ -22,14 +22,6 @@
 h1 {
   margin: 0px;
 }
-.Counter {
-  font-size: 200px;
-}
-
-.Counter-negative {
-  font-size: 200px;
-  color: red;
-}
 
 @keyframes App-logo-spin {
   from {
