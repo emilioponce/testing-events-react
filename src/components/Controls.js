@@ -4,7 +4,7 @@ import { Button, Icon } from "antd";
 const Controls = props => {
   return (
     <Button.Group size="large" onClick={props.handleClick}>
-      <Button type="primary" id="diskike">
+      <Button type="primary" id="dislike">
         <Icon type="dislike" />
         Dislike
       </Button>

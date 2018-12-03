@@ -30,7 +30,7 @@ exports[`Component App snapshot renders correctly 1`] = `
       >
         <button
           className="ant-btn ant-btn-primary"
-          id="diskike"
+          id="dislike"
           onClick={[Function]}
           title={undefined}
           type="button"
