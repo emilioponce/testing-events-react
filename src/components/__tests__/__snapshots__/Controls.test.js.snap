@@ -3,13 +3,12 @@
 exports[`Component Controls renders correctly 1`] = `
 <div
   className="ant-btn-group ant-btn-group-lg"
-  onClick={[Function]}
+  onClick={[MockFunction]}
 >
   <button
     className="ant-btn ant-btn-primary"
     id="dislike"
     onClick={[Function]}
-    title={undefined}
     type="button"
   >
     <i
@@ -21,8 +20,6 @@ exports[`Component Controls renders correctly 1`] = `
         data-icon="dislike"
         fill="currentColor"
         height="1em"
-        onClick={undefined}
-        style={undefined}
         viewBox="64 64 896 896"
         width="1em"
       >
@@ -39,7 +36,6 @@ exports[`Component Controls renders correctly 1`] = `
     className="ant-btn ant-btn-primary"
     id="like"
     onClick={[Function]}
-    title={undefined}
     type="button"
   >
     <span>
@@ -54,8 +50,6 @@ exports[`Component Controls renders correctly 1`] = `
         data-icon="like"
         fill="currentColor"
         height="1em"
-        onClick={undefined}
-        style={undefined}
         viewBox="64 64 896 896"
         width="1em"
       >
